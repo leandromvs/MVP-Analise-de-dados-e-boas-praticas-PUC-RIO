@@ -81,29 +81,6 @@ As bases são públicas e provenientes de fontes oficiais:
 
 ---
 
-## 🔍 Como Validar o Trabalho
-
-Você pode validar o projeto de duas formas:
-
-### 1. 📄 Relatório (se aplicável)
-Documento com explicações, análises e conclusões do projeto.
-
-*(inserir link aqui, se houver)*
-
----
-
-### 2. 📓 Notebooks
-
-Os notebooks já estão com outputs salvos:
-
-- `01_coleta_e_preparacao.ipynb`  
-- `02_tratamento_dados.ipynb`  
-- `03_integracao_bases.ipynb`  
-- `04_analise_exploratoria.ipynb`  
-- `05_preprocessamento_final.ipynb`  
-
----
-
 ## 📈 Principais Insights Esperados
 
 - Relação entre taxa de juros (Selic) e consumo  
@@ -116,11 +93,10 @@ Os notebooks já estão com outputs salvos:
 
 ## 🚀 Próximos Passos
 
-- Evoluir para modelagem preditiva  
-- Testar modelos de regressão e séries temporais  
-- Criar features adicionais  
+- Evoluir para modelagem preditiva mais apurada  
+- Testar modelos de regressão mais aderentes  
 - Avaliar importância de variáveis  
-- Explorar análises mais granulares por setor  
+- Explorar análises mais granulares por setor, ex: Setor automotivo  
 
 ---
 
