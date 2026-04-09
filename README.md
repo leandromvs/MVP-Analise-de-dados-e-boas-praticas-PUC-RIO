@@ -76,12 +76,11 @@ As bases são públicas e provenientes de fontes oficiais:
 - Os notebooks possuem **comentários detalhados**, explicando cada etapa do processo.
 - A análise prioriza consistência e coerência dos dados antes de qualquer modelagem.
 - Foi realizado um esforço relevante na **integração das bases**, que representou uma das etapas mais desafiadoras do projeto.
-- Assim como no projeto anterior, o versionamento poderia ter sido mais frequente — parte do desenvolvimento ocorreu em ambiente externo (ex: Colab).
 - Este projeto marca uma evolução prática no uso de dados estruturados e integração de fontes públicas.
 
 ---
 
-## 📈 Principais Insights Esperados
+## 📈 Principais Insights
 
 - Relação entre taxa de juros (Selic) e consumo  
 - Impacto da inflação no varejo  
@@ -91,11 +90,11 @@ As bases são públicas e provenientes de fontes oficiais:
 
 ---
 
-## 🚀 Próximos Passos
+## 🚀 Próximos Passos (futuro)
 
 - Evoluir para modelagem preditiva mais apurada  
 - Testar modelos de regressão mais aderentes  
-- Avaliar importância de variáveis  
+- Avaliar importância de novas variáveis (ex.: Indice de confiança do consumidor)  
 - Explorar análises mais granulares por setor, ex: Setor automotivo  
 
 ---
