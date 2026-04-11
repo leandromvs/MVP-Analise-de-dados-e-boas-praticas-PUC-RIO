@@ -1,4 +1,4 @@
-# MVP-Analise-de-Dados-e-Boas-Praticas  
+# MVP Analise de Dados-e-Boas-Praticas  
 # Trabalho Final - Análise de Dados e Pré-processamento  
 **Pós-Graduação em Ciência de Dados e Analytics - PUC-Rio**
 
@@ -12,10 +12,10 @@ O projeto tem como foco a construção de uma **base analítica integrada do var
 
 Além da análise exploratória, o trabalho enfatiza a aplicação de **boas práticas de dados**, incluindo:
 
-- padronização e tratamento de bases públicas  
-- integração de múltiplas fontes em uma tabela analítica única  
-- validação de consistência e coerência dos dados  
-- organização do pipeline analítico para reprodutibilidade  
+- Padronização e tratamento de bases públicas  
+- Integração de múltiplas fontes em uma tabela analítica única  
+- Validação de consistência e coerência dos dados  
+- Organização do pipeline analítico para reprodutibilidade  
 
 Este MVP estabelece a base para o próximo estágio do projeto, voltado para **modelagem preditiva e machine learning**.
 
@@ -27,7 +27,7 @@ O objetivo principal é investigar e estruturar dados para responder perguntas c
 
 - É possível prever a variação das vendas do varejo com base em variáveis macroeconômicas?
 - Quais fatores mais influenciam o comportamento do consumo?
-- Existem diferenças relevantes entre setores do varejo?
+- Setores essenciais e discricionários, em regiões com diferentes níveis de desigualdade (Gini), respondem de forma distinta às variáveis macroeconômicas?
 
 ---
 
@@ -37,7 +37,6 @@ As bases são públicas e provenientes de fontes oficiais:
 
 - **IBGE / SIDRA**
   - Pesquisa Mensal do Comércio (PMC)
-  - Renda domiciliar
   - Índice de Gini  
 
 - **Banco Central do Brasil**
@@ -56,8 +55,7 @@ As bases são públicas e provenientes de fontes oficiais:
 - Padronização de granularidade temporal (mensal)  
 - Tratamento de dados faltantes e inconsistentes  
 - Análise exploratória (EDA) das variáveis  
-- Validação de coerência das séries temporais  
-
+- Análise destinada à verificação das hipóteses propostas.
 ---
 
 ## 🧠 Boas Práticas Aplicadas
@@ -65,9 +63,10 @@ As bases são públicas e provenientes de fontes oficiais:
 - Separação entre dados brutos, tratados e finais  
 - Padronização de nomenclaturas  
 - Código comentado e organizado  
-- Validação cruzada com benchmarks econômicos  
-- Estrutura preparada para evolução futura (ML)  
-- Reprodutibilidade dos resultados  
+- Validação da coerencia dos dados com benchmarks e analise grafica das séries  
+- Estrutura preparada para evolução para o próximo MVP / Sprint (ML)  
+- Reprodutibilidade dos resultados
+- Tentativa ao máximo em utilizar princípios SOLID e POO
 
 ---
 
@@ -76,8 +75,8 @@ As bases são públicas e provenientes de fontes oficiais:
 - Os notebooks possuem **comentários detalhados**, explicando cada etapa do processo.
 - A análise prioriza consistência e coerência dos dados antes de qualquer modelagem.
 - Foi realizado um esforço relevante na **integração das bases**, que representou uma das etapas mais desafiadoras do projeto.
-- Este projeto marca uma evolução prática no uso de dados estruturados e integração de fontes públicas.
-
+- Em estágio avançado, identifiquei melhorias na arquitetura para reduzir a dependência de APIs em tempo real. Não houve tempo para implementar, mas já defini para a próxima sprint a separação da coleta/armazenamento do dado bruto em etapa prévia, com consultas e tratamentos a partir dessa base co  maior controle.
+   
 ---
 
 ## 📈 Principais Insights
@@ -85,7 +84,7 @@ As bases são públicas e provenientes de fontes oficiais:
 - Relação entre taxa de juros (Selic) e consumo  
 - Impacto da inflação no varejo  
 - Diferenças entre setores (ex: essenciais vs discricionários)  
-- Influência da renda e desigualdade  
+- Influência da desigualdade entre estados
 - Efeito do desemprego nas vendas  
 
 ---
@@ -93,9 +92,10 @@ As bases são públicas e provenientes de fontes oficiais:
 ## 🚀 Próximos Passos (futuro)
 
 - Evoluir para modelagem preditiva mais apurada  
-- Testar modelos de regressão mais aderentes  
+- Testar diferentes modelos de regressão  
 - Avaliar importância de novas variáveis (ex.: Indice de confiança do consumidor)  
-- Explorar análises mais granulares por setor, ex: Setor automotivo  
+- Incluir a base de varejo ampliado e setores ausentes (ex.: automotivo e construção) nas análises.
+- Realizar análise final focada em um setor para o próximo MVP (ex.: automotivo).
 
 ---
 
@@ -113,6 +113,3 @@ As bases são públicas e provenientes de fontes oficiais:
 
 **Leandro Maldonado Vieira dos Santos**  
 
-Projeto desenvolvido como parte da pós-graduação, com foco em análise de dados, integração de bases públicas e aplicação de boas práticas em ciência de dados.
-
----
